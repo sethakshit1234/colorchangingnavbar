@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./tabbar.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">   
+    <title>tabbar</title>
+</head>
+
+<body>
+<h1>TABBAR NAVIGATION LINK</h1>
+<div class="tab-nav-container">
+<div class="tab active purple">
+ <i class="fas fa-home"></i>
+ <p>HOME</p> 
+</div>
+<div class="tab pink">
+ <i class="fas fa-heart"></i>
+ <p>WHISHLIST</p>   
+</div>
+<div class="tab yellow">
+ <i class="fas fa-search"></i>
+ <p>SEARCH</p>   
+</div>
+<div class="tab teal">
+ <i class="fas fa-user"></i>
+ <p>SIGN IN/UP</p>   
+</div>
+</div>
+
+    <script src="./tabbar.js"></script>
+</body>
+</html>
